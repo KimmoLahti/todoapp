@@ -3,3 +3,4 @@ Everything else works perfectly, except local storage.
 I managed to save, delete and load saved content, but i didn't manage to save right content, it always saves "object object" for some reason.
 I tried several different tutorials and didn't get local storage to work properly.
 This project took a lot of time to finish, but i learned a lot.
+Kimmo Lahtinen
