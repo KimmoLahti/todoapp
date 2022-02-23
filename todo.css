@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+body {
+  background-color: silver;
+  color: blueviolet;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  min-height: 100vh;
+}
+header {
+  font-size: 2rem;
+}
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  padding: 1rem;
+  font-size: 1rem;
+  background: whitesmoke;
+}
+form button {
+  color: silver;
+  background: whitesmoke;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+form button:hover {
+  background: silver;
+  color: whitesmoke;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tasks {
+  list-style: none;
+  min-width: 40%;
+}
+.task {
+  margin: 0.6rem;
+  background: white;
+  color: black;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+.task li {
+  flex: 1;
+}
+.deletebutton {
+  background: red;
+  color: whitesmoke;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
